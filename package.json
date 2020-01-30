@@ -1,12 +1,10 @@
 {
   "name": "portfolio-projects",
-  "homepage": "https://developeril.github.io/projects/",
+  "homepage": "https://developeril.github.io/myprojects/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "core-js": "^3.6.4",
-    "gatsby": "^2.19.10",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.12.0",
@@ -20,8 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
