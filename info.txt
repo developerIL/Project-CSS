@@ -1,0 +1,17 @@
+npm install --save react-router-dom
+npm install bootstrap | cdn -> index.html
+npm install --save react-mdl -> For skills component
+fix -> npm install react-bootstrap bootstrap
+
+
+import -> index,js
+
+folder css -> 2 fiels of css for Projects, navbar component
+
+Slider.js
+---------
+Line 11: d-block- prevent browser default image alignment,  w-100 - width 100%
+
+
+
+
