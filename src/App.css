@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+
+/* ***** Carousel Style ***** */
+.carousel-inner{
+  width:100%;
+  max-height: 480px !important;
+}
+
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: 0;
+  top: 45%;
+}
+
+.carousel-caption h2 span {
+  color: #edbb00; 
+  padding-bottom: 20rem;
+}
+
+/* ***** End Carousel Style ***** */
+
+
+/* ***** Cards Style ***** */
+.card {
+  width: 20rem;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,253)!important;
+}
+
+.card-body {
+  padding: 0.2rem 0 !important;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  padding: 0.2rem 1.9rem;
+}
+
+.overflow {
+  overflow: hidden;
+}
+.card-img-top {
+  height: 185px;
+  width: 240px;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.8);
+}
+
+/* ***** End Cards Style ***** */
